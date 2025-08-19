@@ -17,31 +17,6 @@ A aplicação permite buscar livros por título, listar livros e autores, salvar
 
 💾 Persistência de dados com PostgreSQL utilizando Spring Data JPA.
 
-🏗️ Estrutura do Projeto
-src
- └── main
-      ├── java
-      │    └── com.literalura
-      │          ├── LiteraluraApplication.java   # Classe principal (Spring Boot)
-      │          ├── Principal.java               # Menu de interação com o usuário
-      │          ├── controller
-      │          │      └── LivroController.java
-      │          ├── dto
-      │          │      ├── DadosAutor.java
-      │          │      └── DadosLivro.java
-      │          ├── model
-      │          │      ├── Autor.java
-      │          │      └── Livro.java
-      │          ├── repository
-      │          │      ├── AutorRepository.java
-      │          │      └── LivroRepository.java
-      │          └── service
-      │                 ├── ConsumoApi.java
-      │                 ├── ConverteDados.java
-      │                 └── LivroService.java
-      └── resources
-           └── application.properties             # Configurações (DB, etc.)
- └── pom.xml                                      # Dependências Maven
 
 🛠️ Tecnologias Utilizadas
 
