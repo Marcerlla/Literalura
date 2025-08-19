@@ -32,19 +32,7 @@ HttpClient (Java 11+)
 
 Jackson (para JSON)
 
-⚙️ Configuração do Projeto
-1. Clone o repositório:
-git clone https://github.com/seu-usuario/Literalura.git
-cd Literalura
-
-2. Configure o banco de dados no arquivo application.properties:
-spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-
-3. Compile e execute o projeto:
+. Compile e execute o projeto:
 ./mvnw spring-boot:run
 
 📖 Exemplos de Uso
